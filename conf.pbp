@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.11 (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="config generator"/>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2015-02-12 12:57" user="Sven" host="SPC"/>
+  </section>
+  <section name="files">
+    <file name="main.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="558b8ab39083472471bf34ef7cf71395"/>
+    </file>
+    <file name="Common.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="43dac8cf03f1732f8d94e267644f655a"/>
+    </file>
+    <file name="gui.pbv">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="24144b450cea07ed129cd804e34c5a93"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Standard-Ziel" enabled="1" default="1">
+      <inputfile value="main.pb"/>
+      <outputfile value="conf.exe"/>
+      <executable value="conf.exe"/>
+      <options xpskin="1" debug="1"/>
+    </target>
+  </section>
+</project>
